@@ -9,6 +9,7 @@ Seamlessly integrates OpenAI's language model for generating human-like response
 Utilizes the itchat library to handle WeChat interactions and messages.
 Displays dynamic QR codes for easy login using various QR code generation APIs.
 Offers a customizable chat experience with adjustable response temperature and token limits.
+
 How It Works:
 
 The qrCallback function generates and displays a QR code for WeChat login.
@@ -16,6 +17,7 @@ Once logged in, the bot listens for incoming messages using the itchat library.
 User messages are sent to OpenAI's text-davinci-003 engine for processing.
 The bot generates contextually relevant responses using the OpenAI model.
 Responses are sent back to the user, creating a natural and engaging conversation.
+
 Usage:
 
 Clone the repository and install required dependencies.
